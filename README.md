@@ -1,4 +1,7 @@
-# test coverage for  [stream-combiner (v0.2.2)](https://github.com/dominictarr/stream-combiner)  [![npm package](https://img.shields.io/npm/v/npmtest-stream-combiner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stream-combiner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stream-combiner.svg)](https://travis-ci.org/npmtest/node-npmtest-stream-combiner)
+# npmtest-stream-combiner
+
+#### basic test coverage for  [stream-combiner (v0.2.2)](https://github.com/dominictarr/stream-combiner)  [![npm package](https://img.shields.io/npm/v/npmtest-stream-combiner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stream-combiner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stream-combiner.svg)](https://travis-ci.org/npmtest/node-npmtest-stream-combiner)
+
 #### [![npm version](https://img.shields.io/npm/v/stream-combiner.svg)](https://npmjs.org/package/stream-combiner)  [![Travis CI](https://travis-ci.org/dominictarr/stream-combiner.svg)](https://travis-ci.org/dominictarr/stream-combiner)
 
 [![NPM](https://nodei.co/npm/stream-combiner.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stream-combiner)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stream-combiner/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stream-combiner/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stream-combiner/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stream-combiner/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stream-combiner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stream-combiner/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stream-combiner/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stream-combiner/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stream-combiner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stream-combiner/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stream-combiner/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stream-combiner/build/coverage.html/index.html)
 
@@ -70,7 +73,8 @@
     "scripts": {
         "test": "set -e; for t in test/*.js; do node $t; done"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
